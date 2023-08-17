@@ -1,10 +1,16 @@
 #include "main.h"
-void positive_or_negative(int n)
+
+/**
+*main - is a test for a postitive or negative function
+*Return: 0
+*/
+
+int main(void)
 {
-if (n > 0)
-printf("%d is positive\n", n);
-else if (n < 0)
-printf("%d is negative\n", n);
-else
-printf("%d is zero\n", n);
+int i;
+
+i = 0;
+positive_or_negative(i);
+
+return (0);
 }
